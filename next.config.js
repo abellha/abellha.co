@@ -1,26 +1,27 @@
-const withMdxEnhanced = require("next-mdx-enhanced");
-const rehypePrism = require("@mapbox/rehype-prism");
+const { PHASE_EXPORT } = require("next/constants")
+const withPlugins = require("next-compose-plugins")
+const optimizedImages = require("next-optimized-images")
+const path = require("path")
 
-module.exports = withMdxEnhanced({
-  layoutPath: "src/layouts",
-  defaultLayout: true,
-  rehypePlugins: [rehypePrism],
-})({
-  pageExtensions: ["mdx", "tsx"],
-  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
-    config.module.rules.push(
-      ...[
-        {
-          test: /\.yml$/,
-          type: "json",
-          use: "yaml-loader",
-        },
-        {
-          test: /\.svg$/,
-          use: "@svgr/webpack",
-        },
-      ]
-    );
-    return config;
+const nextConfig = {
+  [PHASE_EXPORT]: { exportTrailingSlash: true },
+  poweredByHeader: false,
+  devIndicators: {
+    autoPrerender: false,
   },
-});
+  webpack: (config) => {
+    require("./src/utils/generateSitemap")
+    config.resolve.alias.images = path.join(__dirname, "src/images")
+    return config
+  },
+}
+
+module.exports = withPlugins(
+  [
+    optimizedImages,
+    {
+      optimizeImagesInDev: true,
+    },
+  ],
+  nextConfig
+)

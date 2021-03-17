@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/templates/*": ["src/templates/*"],
+      "@/components/*": ["src/components/*"],
+      "@/cms/*": ["src/cms/*"],
+      "@/utils/*": ["src/utils/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
