@@ -15,6 +15,22 @@ export default function Button(props) {
       </ButtonStyled>
     )
   }
+
+  if (props.external) {
+    return (
+      <a href={props.url} title={props.title ?? props.text}>
+        <ButtonStyled
+          padding={props.padding}
+          title={props.title ?? props.text}
+          display={props.display}
+          type={props.type}
+        >
+          {props.text}
+        </ButtonStyled>
+      </a>
+    )
+  }
+
   return (
     <Link prefetch={props.prefetch} href={props.url} passHref>
       <ButtonStyled

@@ -1,12 +1,47 @@
 const cmsData = {
   meta: {
-    title: "Conheça nossa metodologia e nossos programas",
+    title: "Programa abeLLha de aceleração 2021",
     description:
-      "Podemos ajudar o seu negócio de forma prática através dos nossos programas: Startups, inCompany, Impacto Social e Investimento. Saiba mais!",
-    permalink: "programas",
+      "Lançou o seu MVP e quer escalar a sua startup? Inscreva-se no Programa abeLLha de aceleração 2021",
+    permalink: "2021",
   },
   hero: {
-    title: "Conheça nossos programas e saiba como fazemos na prática!",
+    title: "Programa abeLLha de aceleração 2021",
+    message: "Lançou o seu MVP e quer escalar a sua startup?",
+  },
+  sidebyside_1: {
+    infoOrder: "last",
+    infoOrderDesktop: "last",
+    model: "model-1",
+    featureImage: {
+      src: "sidebyside_turmas.jpg",
+      alt: "imagem referente ao programa de aceleração de Startups.",
+    },
+    description:
+      "A abeLLha é uma aceleradora criada e gerida por pessoas que fundaram e escalaram negócios digitais. Há 6 anos trabalha para acelerar o crescimento de negócios em estágio inicial (MVP ou early stage) com foco na excelência operacional e escalabilidade. Com uma equipe dinâmica a abeLLha já aplicou sua metodologia para desenvolver e escalar mais de 100 negócios.<br><br>Buscamos empresas que tenham uma solução inovadora, base tecnológica, capacidade de crescimento em escala e que queira se preparar para levantar investimento. <br><br>Buscamos startups com:",
+    blockquote: {
+      small: true,
+      bold: true,
+      text:
+        "&#8226; Equipe full time (ou maior parte full time).<br> &#8226; Potencial de escala comprovado pelo problema, mercado e solução.<br>&#8226; Modelo de negócio claro.<br>&#8226; Esteja faturando.",
+    },
+  },
+  sidebyside_2: {
+    infoOrder: "first",
+    infoOrderDesktop: "first",
+    model: "model-9",
+    featureImage: {
+      src: "sidebyside_investimento-2021.jpg",
+      alt: "imagem referente ao programa de aceleração de Startups.",
+    },
+    title: "Investimento",
+    description:
+      "O programa tem custo mensal de R$1200 por mês por startup selecionada, durante 6 meses.",
+    button: {
+      external: true,
+      text: "Quero inscrever a minha startup",
+      url: "https://www.google.com.br",
+    },
   },
   content: {
     sections: [
@@ -22,10 +57,8 @@ const cmsData = {
         title: "Startups",
         description:
           "A abeLLha acelera um grupo de startups selecionadas via nosso processo seletivo anual e via contratações de consultoria pontuais. Nosso trabalho é focado em acompanhar e direcionar a estratégia, indicadores e execução visando o ganho de escala ou captação de investimento.",
-        blockquote: {
-          text:
-            "O nosso programa de aceleração é aberto via edital anual. Porém se você é uma empresa que busca desenvolvimento agora, é só entrar em contato.",
-        },
+        blockquote:
+          "O nosso programa de aceleração é aberto via edital anual. Porém se você é uma empresa que busca desenvolvimento agora, é só entrar em contato.",
         button: { text: "Conheça nossas startups", url: "/portfolio" },
         id: "startups",
       },

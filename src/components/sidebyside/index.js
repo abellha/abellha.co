@@ -17,11 +17,16 @@ export default function SideBySide({ mainTagTitle, data }) {
         </SpacerOut>
         {data.blockquote && (
           <SpacerOut marginBottom={4} marginBottomDesktop={10}>
-            <Blockquote>{data.blockquote}</Blockquote>
+            <Blockquote
+              small={data.blockquote.small}
+              bold={data.blockquote.bold}
+              dangerouslySetInnerHTML={{ __html: data.blockquote.text }}
+            />
           </SpacerOut>
         )}
         {data.button && (
           <Button
+            external={data.button.external}
             title={data.button.text}
             text={data.button.text}
             url={data.button.url}

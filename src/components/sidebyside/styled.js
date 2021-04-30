@@ -75,15 +75,11 @@ const SideBySideStyled = styled(View)`
 `
 
 const Blockquote = styled.blockquote`
-  font-size: 1.8rem;
+  font-size: ${(props) => (props.small ? "1.4rem" : "1.8rem")};
+  ${(props) => props.bold && "font-weight: 700;"};
   line-height: 3rem;
   border-left: 2px solid ${({ theme }) => theme.backgrounds.tertiary};
   padding-left: 20px;
-
-  @media (min-width: ${breakpoints.desktop}) {
-    font-size: 1.8rem;
-    line-height: 2.8rem;
-  }
 `
 
 const Image = styled(LazyLoadImage)`

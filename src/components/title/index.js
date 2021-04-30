@@ -16,6 +16,10 @@ const Title = styled.h1`
         return `
         color: ${props.theme.colors.secundary};
       `
+      case `highlight`:
+        return `
+        color: ${props.theme.colors.highlight};
+        `
       default:
         break
     }

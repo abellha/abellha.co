@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /painel
+Disallow: /login
+Disallow: /*?*
+Disallow: /*& 
+Allow: /*.js
+Allow: /*.css
+
+Sitemap: https://www.abellha.co/sitemap.xml
+

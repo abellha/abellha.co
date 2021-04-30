@@ -9,7 +9,7 @@ export default function Programas() {
   return (
     <TemplateBase cmsData={cmsData.meta}>
       <Hero cmsData={cmsData.hero} />
-      <SpacerOut marginBottom={"10"}>
+      <SpacerOut marginBottom={10}>
         {cmsData.content.sections.map((section, index) => {
           switch (section.type) {
             case `sideBySide`:
