@@ -10,7 +10,7 @@ export default function Portfolio() {
     <TemplateBase cmsData={cmsData.meta}>
       <Hero cmsData={cmsData.hero} />
       <CurrentClass />
-      <SpacerOut marginBottom={"20"}>
+      <SpacerOut marginBottom={20}>
         {cmsData.content.sections.map((section, index) => {
           switch (section.type) {
             case `logos`:

@@ -22,7 +22,7 @@ const ButtonStyled = styled.a`
             background: none ${props.theme.backgrounds.primary.dark};
             border: 1px solid ${props.theme.backgrounds.primary.dark};
             color: ${props.theme.colors.primary};
-  
+
             :hover {
               background: none ${props.theme.backgrounds.secundary.light};
               border: 1px solid ${props.theme.backgrounds.secundary.light};
@@ -99,6 +99,8 @@ const ButtonStyled = styled.a`
     switch (props.padding) {
       case `small`:
         return `
+        padding: 0 10px;
+
         @media (min-width: ${breakpoints.desktop}) {
           padding: 0 10px;
         }
@@ -106,7 +108,6 @@ const ButtonStyled = styled.a`
       default:
         return `
           padding: 0 30px;
-          
           @media (min-width: ${breakpoints.desktop}) {
             padding: 0 30px;
             width: auto;

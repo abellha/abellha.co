@@ -2,17 +2,12 @@ import Head from "@/components/common/head"
 import Header from "@/components/common/header"
 import Zum from "@/components/zum"
 import Footer from "@/components/common/footer"
-import cmsDataHeader from "@/cms/header.mock"
 
-export default function TemplateBase({ cmsData, children }) {
+export default function TemplateLanding({ cmsData, children }) {
   return (
     <>
       <Head {...cmsData} />
-      <Header data={cmsDataHeader} />
-      <main>
-        {children}
-        <Zum />
-      </main>
+      <main>{children}</main>
       <Footer />
     </>
   )

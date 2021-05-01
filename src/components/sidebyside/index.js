@@ -9,12 +9,16 @@ export default function SideBySide({ mainTagTitle, data }) {
   function _info() {
     return (
       <>
-        <SpacerOut marginBottom={4} marginBottomDesktop={10}>
-          <Title as={mainTagTitle}>{data.title}</Title>
-        </SpacerOut>
-        <SpacerOut marginBottom={4} marginBottomDesktop={10}>
-          <Paragraph dangerouslySetInnerHTML={{ __html: data.description }} />
-        </SpacerOut>
+        {data.title && (
+          <SpacerOut marginBottom={4} marginBottomDesktop={10}>
+            <Title as={mainTagTitle}>{data.title}</Title>
+          </SpacerOut>
+        )}
+        {data.description && (
+          <SpacerOut marginBottom={4} marginBottomDesktop={10}>
+            <Paragraph dangerouslySetInnerHTML={{ __html: data.description }} />
+          </SpacerOut>
+        )}
         {data.blockquote && (
           <SpacerOut marginBottom={4} marginBottomDesktop={10}>
             <Blockquote
@@ -26,6 +30,7 @@ export default function SideBySide({ mainTagTitle, data }) {
         )}
         {data.button && (
           <Button
+            padding={data.button.padding}
             external={data.button.external}
             title={data.button.text}
             text={data.button.text}
@@ -71,7 +76,7 @@ export default function SideBySide({ mainTagTitle, data }) {
               alignSelfDesktop={"center"}
               order={
                 (data.infoOrder == "last" && data.infoOrderDesktop == "last") ||
-                (data.infoOrder == "first" && data.infoOrderDesktop == "first")
+                  (data.infoOrder == "first" && data.infoOrderDesktop == "first")
                   ? 2
                   : 0
               }

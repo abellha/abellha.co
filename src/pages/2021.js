@@ -1,17 +1,20 @@
 import cmsData from "@/cms/2021.mock"
-import TemplateBase from "@/templates/template-base"
+import TemplateLanding from "@/templates/template-landing"
 import Hero from "@/components/pages/2021/hero"
 import SideBySide from "@/components/sidebyside"
-import Separator from "@/components/common/separator"
-import { SpacerOut } from "@/components/spacer"
+import OurPrograms from "@/components/pages/2021/our-programs"
+import OurMentors from "@/components/pages/2021/our-mentors"
+import Team from "@/components/pages/2021/team"
 
-export default function Programas() {
-  console.log(cmsData)
+export default function Page2021() {
   return (
-    <TemplateBase cmsData={cmsData.meta}>
+    <TemplateLanding cmsData={cmsData.meta}>
       <Hero cmsData={cmsData.hero} />
       <SideBySide mainTagTitle="h2" data={cmsData.sidebyside_1} />
+      <OurPrograms cmsData={cmsData.ourPrograms} />
       <SideBySide mainTagTitle="h2" data={cmsData.sidebyside_2} />
-    </TemplateBase>
+      <OurMentors data={cmsData.ourMentors} />
+      <Team data={cmsData.team} />
+    </TemplateLanding>
   )
 }

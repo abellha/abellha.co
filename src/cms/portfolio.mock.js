@@ -1,6 +1,6 @@
 const cmsData = {
   meta: {
-    title: "Conheça quem já passou por aqui",
+    title: "Saiba quem já passou por aqui",
     description:
       "Veja todas as startups que já participaram do nosso programa de aceleração. Saiba mais!",
     permalink: "portfolio",

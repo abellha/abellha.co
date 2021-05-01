@@ -18,16 +18,16 @@ export default function Button(props) {
 
   if (props.external) {
     return (
-      <a href={props.url} title={props.title ?? props.text}>
-        <ButtonStyled
-          padding={props.padding}
-          title={props.title ?? props.text}
-          display={props.display}
-          type={props.type}
-        >
-          {props.text}
-        </ButtonStyled>
-      </a>
+      <ButtonStyled
+        href={props.url}
+        padding={props.padding}
+        title={props.title ?? props.text}
+        display={props.display}
+        type={props.type}
+        target="_blank"
+      >
+        {props.text}
+      </ButtonStyled>
     )
   }
 

@@ -15,7 +15,7 @@ const SpacerIn = styled.div`
     props.paddingRight != null && `padding-right: ${5 * props.paddingRight}px;`}
   ${(props) =>
     props.paddingLeft != null && `padding-left: ${5 * props.paddingLeft}px;`}
-  
+
   @media (min-width: ${breakpoints.desktop}) {
     ${(props) =>
       props.paddingAllDesktop != null &&
