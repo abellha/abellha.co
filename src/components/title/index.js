@@ -3,8 +3,7 @@ import PropTypes from "prop-types"
 import breakpoints from "@/utils/breakpoints"
 
 const Title = styled.h1`
-  font-family: "Bellota Text", cursive;
-  letter-spacing: 0.2px;
+  font-family: "Playfair Display", serif;
 
   ${(props) => {
     switch (props.color) {

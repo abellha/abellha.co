@@ -17,10 +17,9 @@ const FooterStyled = styled(View)`
 
 const Label = styled.h3`
   color: ${({ theme }) => theme.colors.primary};
-  font-family: "Bellota Text", cursive;
+  font-family: "Playfair Display", serif;
   font-size: 2.4rem;
   line-height: 2.7rem;
-  font-weight: 700;
   margin-bottom: 20px;
 
   @media (min-width: ${breakpoints.desktop}) {

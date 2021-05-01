@@ -95,15 +95,13 @@ const DescriptionBody = styled.p`
   line-height: 2.4rem;
 `
 const BigNumber = styled.p`
-  font-family: "Bellota Text", cursive;
-  font-weight: 700;
+  font-family: "Playfair Display", serif;
   color: #f8cd4a;
   font-size: 6rem;
   line-height: 7rem;
-  letter-spacing: -3px;
 `
 const BigNumberDescription = styled.p`
-  font-family: "Bellota Text", cursive;
+  font-family: "Playfair Display", serif;
   color: #333333;
   font-size: 1.6rem;
   line-height: 2rem;

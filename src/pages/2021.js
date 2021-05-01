@@ -4,7 +4,7 @@ import Hero from "@/components/pages/2021/hero"
 import SideBySide from "@/components/sidebyside"
 import OurPrograms from "@/components/pages/2021/our-programs"
 import OurMentors from "@/components/pages/2021/our-mentors"
-import Team from "@/components/pages/2021/team"
+import Team from "@/components/pages/quem-somos/team"
 
 export default function Page2021() {
   return (

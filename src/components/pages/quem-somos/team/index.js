@@ -8,7 +8,8 @@ import { Photo, Name, Role, Description } from "./styled"
 
 export default function Team({ data }) {
   const params = {
-    ContainerEl: "ul",
+    ContainerEl: "div",
+    WrapperEl: "ul",
     containerClass: "swiper-container team",
     grabCursor: true,
     slidesPerView: "auto",
@@ -20,7 +21,7 @@ export default function Team({ data }) {
     },
     breakpoints: {
       1080: {
-        slidesPerColumn: 2,
+        slidesPerColumn: 3,
         slidesPerView: 3,
         spaceBetween: 0,
       },

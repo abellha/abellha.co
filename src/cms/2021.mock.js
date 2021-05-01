@@ -25,7 +25,7 @@ const cmsData = {
       alt: "imagem referente ao programa de aceleração de Startups.",
     },
     description:
-      "A abeLLha é uma aceleradora criada e gerida por pessoas que fundaram e escalaram negócios digitais. Há 6 anos trabalha para acelerar o crescimento de negócios em estágio inicial (MVP ou early stage) com foco na excelência operacional e escalabilidade. Com uma equipe dinâmica a abeLLha já aplicou sua metodologia para desenvolver e escalar mais de 100 negócios.<br><br>Buscamos empresas que tenham uma solução inovadora, base tecnológica, capacidade de crescimento em escala e que queira se preparar para levantar investimento. <br><br>Buscamos startups com:",
+      "A abeLLha é uma aceleradora criada e gerida por pessoas que fundaram e escalaram negócios digitais. Há 6 anos trabalha para acelerar o crescimento de negócios em estágio inicial (MVP ou early stage) com foco na excelência operacional e escalabilidade. Com uma equipe dinâmica a abeLLha já aplicou sua metodologia para desenvolver e escalar mais de 100 negócios.<br><br>Buscamos empresas que tenham uma solução inovadora, base tecnológica, capacidade de crescimento em escala e que queiram levantar investimento. <br><br>Buscamos startups com:",
     blockquote: {
       small: true,
       bold: true,
@@ -69,8 +69,8 @@ const cmsData = {
           title: "Kick off",
           list: [
             "Plano de negócio e projeções financeiras são avaliados e validados.",
-            "Os objetivos do negócio são traçados (Com o método OKR). Os objetivos do negócio são traçados (Com o método OKR)",
-            "Estratégia e plano tático para a entrega das metas estabelecidas",
+            "Os objetivos do negócio são traçados (Com o método OKR).",
+            "Estratégia e plano tático para a entrega das metas estabelecidas.",
           ],
         },
         {
@@ -189,7 +189,7 @@ const cmsData = {
         photo: "team_member_photo_beta-pontelo.jpg",
         firstName: "Betânia",
         lastName: "Pontelo",
-        role: "Sócia e head de inovação",
+        role: "Partner e head de inovação",
         description:
           "Está a frente do programa de aceleração e do braço social da empresa, implementando a metodologia no detalhe com os empreendedores.",
       },
@@ -198,8 +198,7 @@ const cmsData = {
         firstName: "Maxim",
         lastName: "Kejzelman",
         role: "Partner & Head Digital",
-        description:
-          "Especialista em desenvolvimento de produto, UX e mobile.",
+        description: "Especialista em desenvolvimento de produto, UX e mobile.",
       },
       {
         photo: "team_member_photo_deyse-nunes.jpg",
@@ -218,12 +217,20 @@ const cmsData = {
           "Responsável por traduzir toda nossa metodologia e ideias em uma fantástica experiência visual e digital.",
       },
       {
+        photo: "team_member_photo_carlos-vinicius.jpg",
+        firstName: "Carlos",
+        lastName: "Vinicius",
+        role: "Desenvolvedor",
+        description:
+          "Desenvolvedor focado em soluções escaláveis atuando na arquitetura e desenvolvimento da abeLLha digital.",
+      },
+      {
         photo: "team_member_photo_anna-carolina.jpg",
         firstName: "Anna",
         lastName: "Carolina",
         role: "Estagiária de comunicação",
         description:
-          "Responsável por fazer a comunicação da abeLLha, atua nas mídias sociais levando conteúdo.",
+          "Atua na comunicação da abeLLha, com mídias sociais, imprensa e conteúdo.",
       },
     ],
   },

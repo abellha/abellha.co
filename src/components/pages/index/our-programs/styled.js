@@ -24,10 +24,9 @@ const CardInner = styled.div`
 `
 
 const CardTitle = styled.p`
-  font-family: "Bellota Text", cursive;
+  font-family: "Playfair Display", serif;
   font-size: 2.4rem;
   line-height: 2.7rem;
-  letter-spacing: -1px;
 `
 
 const CardDescription = styled.p`
@@ -35,7 +34,6 @@ const CardDescription = styled.p`
   overflow: hidden;
   font-size: 1.4rem;
   line-height: 2rem;
-  letter-spacing: -0.7px;
   height: 80px;
 
   @media (min-width: ${breakpoints.desktop}) {

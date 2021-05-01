@@ -74,7 +74,7 @@ const WrapperMenu = styled.div`
 `
 
 const MenuLink = styled.a`
-  font-family: "Bellota Text", cursive;
+  font-family: "Playfair Display", serif;
   font-size: 3.2rem;
   line-height: 7rem;
   color: ${({ theme }) => theme.colors.primary};

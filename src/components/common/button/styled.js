@@ -61,7 +61,6 @@ const ButtonStyled = styled.a`
   font-size: 1.4rem;
   line-height: 48px;
   text-align: center;
-  letter-spacing: 0.5px;
   text-transform: uppercase;
   text-decoration: none;
   transition: background-color 0.8 ease-out;
@@ -99,19 +98,12 @@ const ButtonStyled = styled.a`
     switch (props.padding) {
       case `small`:
         return `
-        padding: 0 10px;
-
-        @media (min-width: ${breakpoints.desktop}) {
-          padding: 0 10px;
-        }
+          padding: 0 15px;
         `
       default:
         return `
           padding: 0 30px;
-          @media (min-width: ${breakpoints.desktop}) {
-            padding: 0 30px;
-            width: auto;
-          }
+          width: auto;
         `
     }
   }}

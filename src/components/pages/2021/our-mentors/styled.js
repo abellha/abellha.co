@@ -15,30 +15,45 @@ const OurMentorsSerction = styled(Wrapper)`
 
 const Mentors = styled.div`
   display: flex;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
 `
 
 const Mentor = styled(View)`
-  width: 50%;
+  width: 100%;
+
+  @media (min-width: ${breakpoints.tablet}) {
+    width: 50%;
+  }
+
   @media (min-width: ${breakpoints.desktop}) {
-    width: 33.33%
+    width: 33.33%;
   }
 `
 
-const Background = styled.div`
+const Box = styled.div`
+  display: flex;
+  align-items: center;
   background-color: ${({ theme }) => theme.backgrounds.primary.dark};
-  margin: 7px;
+  margin: 10px;
   border-radius: 5px;
-  min-height: 167px;
+  justify-content: center;
+  padding: 10px 30px;
+  min-height: 180px;
+
+  @media (min-width: ${breakpoints.desktop}) {
+    justify-content: start;
+  }
 `
 
 const Inner = styled.div`
   display: flex;
+  flex: 0 0 100%;
   flex-direction: column;
   align-items: center;
-  
+
   @media (min-width: ${breakpoints.desktop}) {
     flex-direction: row;
+    align-items: center;
   }
 `
 
@@ -51,13 +66,17 @@ const Photo = styled(LazyLoadImage)`
     margin-right: 20px;
   }
 `
+const NameRole = styled.div`
+  width: 100%;
+`
 
 const Name = styled.h3`
-  letter-spacing: 0.2px;
+  font-family: "Playfair Display", serif;
   font-size: 1.4rem;
   line-height: 1.8rem;
   font-weight: 700;
   text-align: center;
+  width: 100%;
 
   @media (min-width: ${breakpoints.desktop}) {
     font-size: 1.8rem;
@@ -73,10 +92,20 @@ const Role = styled.p`
   text-align: center;
 
   @media (min-width: ${breakpoints.desktop}) {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     line-height: 2.4rem;
     text-align: left;
   }
 `
 
-export { OurMentorsSerction, Mentors, Mentor, Background, Inner, Photo, Name, Role }
+export {
+  OurMentorsSerction,
+  Mentors,
+  Mentor,
+  Box,
+  Inner,
+  Photo,
+  NameRole,
+  Name,
+  Role,
+}

@@ -69,6 +69,14 @@ const cmsData = {
         description:
           "Desenvolvedor focado em soluções escaláveis atuando na arquitetura e desenvolvimento da abeLLha digital.",
       },
+      {
+        photo: "team_member_photo_anna-carolina.jpg",
+        firstName: "Anna",
+        lastName: "Carolina",
+        role: "Estagiária de comunicação",
+        description:
+          "Atua na comunicação da abeLLha, com mídias sociais, imprensa e conteúdo.",
+      },
     ],
   },
 }

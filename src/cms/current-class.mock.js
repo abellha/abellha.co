@@ -78,35 +78,6 @@ const cmsData = {
       id: "item3",
       initialState: false,
     },
-    // {
-    //   company: "Lukre",
-    //   logo: "turma2020_lukre.png",
-    //   content: {
-    //     description:
-    //       "O LUKRE gera uma experiência transparente para lojistas, ao identificar divergências em suas vendas com cartões. A solução automatiza de ponta a ponta da hora da venda até a entrada no banco. Certificamos recebimentos.",
-    //     results: {
-    //       label: "label",
-    //       items: [
-    //         { value: "428%", text: "aumento de faturamento" },
-    //         { value: "385", text: "toneladas de resíduos coletadas" },
-    //         {
-    //           value: "90%",
-    //           text: "média de desvio de aterros sanitarios para reciclagem",
-    //         },
-    //       ],
-    //     },
-    //     testimonial:
-    //     {
-    //       photo: "turma2020_testimonial_arco.png",
-    //       description:
-    //         "A mentoria da abeLLha tem sido crucial para o crescimento do meu negócio e, também, no meu desenvolvimento como empreendedora. O acompanhamento nos auxilia a olhar para os desafios com um viés estratégico, traçar planos de crescimento e refletir sobre as possibilidades. Em cada sessão somos incentivados a aterrar os resultados e analisá-los criticamente, para tomadas de decisão mais coerentes.",
-    //       name: "Natália Pietzsch",
-    //       role: "Founder da ARCO",
-    //     },
-    //   },
-    //   id: "item4",
-    //   initialState: false,
-    // },
     {
       company: "Troca",
       logo: "turma2020_troca.png",

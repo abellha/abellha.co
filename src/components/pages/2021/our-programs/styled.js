@@ -68,11 +68,9 @@ const CardInner = styled.div`
 `
 
 const CardTitle = styled.p`
-  font-family: "Bellota Text", cursive;
-  font-weight: 700;
+  font-family: "Playfair Display", serif;
   font-size: 1.8rem;
   line-height: 2.8rem;
-  letter-spacing: -1px;
 `
 
 const CardDescription = styled.p`
@@ -80,7 +78,6 @@ const CardDescription = styled.p`
   overflow: hidden;
   font-size: 1.6rem;
   line-height: 2.4rem;
-  letter-spacing: -0.7px;
 
   @media (min-width: ${breakpoints.desktop}) {
   }
@@ -100,8 +97,10 @@ const CardListItem = styled.li`
   font-weight: 400;
   position: relative;
   padding-left: 10px;
-  
-  + li { margin-top: 5px; }
+
+  + li {
+    margin-top: 5px;
+  }
 
   &:before {
     content: "";

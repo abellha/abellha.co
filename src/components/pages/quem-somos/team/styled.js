@@ -14,16 +14,14 @@ const Photo = styled(LazyLoadImage)`
 `
 
 const Name = styled.h3`
-  font-family: "Bellota Text", cursive;
-  letter-spacing: 0.2px;
-  font-size: 2.4rem;
-  line-height: 2.7rem;
+  font-family: "Playfair Display", serif;
+  font-size: 2.2rem;
+  line-height: 2.5rem;
 `
 
 const Role = styled.p`
-  font-size: 1.8rem;
-  line-height: 2.1rem;
-  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
 `
 
 const Description = styled.p`
