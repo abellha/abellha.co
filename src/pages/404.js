@@ -1,6 +1,6 @@
 import cmsData from "@/cms/404.mock"
 import TemplateBase from "@/templates/template-base"
-import Message from "@/components/pages/404/message"
+import Message from "@/components/pages/404/Message"
 import { Wrapper, Container, Row, Col } from "@/components/common/grid"
 
 export default function Page404() {
