@@ -40,6 +40,26 @@ export default function Head(cmsData) {
         href={`${process.env.NEXT_PUBLIC_URL_BASE}${cmsData.permalink}`}
       />
 
+      <link
+        rel={"preconnect"}
+        href={"https://fonts.gstatic.com"}
+        crossOrigin={"anonymous"}
+      />
+      <link
+        rel={"preload"}
+        as={"style"}
+        href={
+          "https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300;400;700&family=Playfair+Display:wght@900&family=Open+Sans:wght@300;400;700&display=block"
+        }
+      />
+      <link
+        rel={"stylesheet"}
+        href={
+          "https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300;400;700&family=Playfair+Display:wght@900&family=Open+Sans:wght@300;400;700&display=block"
+        }
+        media={"all"}
+      />
+
       {/* BEGIN - OPENGRAPH SHARE META TAGS */}
       <meta property="og:site_name" content={defaultData.company.name} />
       <meta property="og:locale" content="pt_BR" />
@@ -66,11 +86,6 @@ export default function Head(cmsData) {
         content={`${process.env.NEXT_PUBLIC_URL_BASE}/social-share.jpg`}
       />
       {/* END - OPENGRAPH SHARE META TAGS */}
-
-      <link
-        href="https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300;400;700&family=Playfair+Display:wght@900&family=Open+Sans:wght@300;400;700&display=block"
-        rel="stylesheet"
-      />
 
       <link
         rel="apple-touch-icon"
