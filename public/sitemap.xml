@@ -2,27 +2,27 @@
       <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       
             <url>
-                <loc>http://localhost:3000/2021</loc>
+                <loc>https://www.abellha.co/2021</loc>
             </url>
         
             <url>
-                <loc>http://localhost:3000/404</loc>
+                <loc>https://www.abellha.co/404</loc>
             </url>
         
             <url>
-                <loc>http://localhost:3000/</loc>
+                <loc>https://www.abellha.co/</loc>
             </url>
         
             <url>
-                <loc>http://localhost:3000/portfolio</loc>
+                <loc>https://www.abellha.co/portfolio</loc>
             </url>
         
             <url>
-                <loc>http://localhost:3000/programas</loc>
+                <loc>https://www.abellha.co/programas</loc>
             </url>
         
             <url>
-                <loc>http://localhost:3000/quem-somos</loc>
+                <loc>https://www.abellha.co/quem-somos</loc>
             </url>
         
       </urlset>
