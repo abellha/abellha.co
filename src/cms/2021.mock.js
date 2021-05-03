@@ -48,7 +48,8 @@ const cmsData = {
       padding: "small",
       external: true,
       text: "Inscrever a minha startup",
-      url: "https://www.google.com.br",
+      url:
+        "https://docs.google.com/forms/d/e/1FAIpQLSd6qgyQJxN_AN1EJsdMqAgz6XE5RVkb4_6KUXVSm1W7I1neXw/viewform",
     },
   },
   ourPrograms: {
