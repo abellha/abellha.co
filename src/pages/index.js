@@ -1,4 +1,6 @@
 import TemplateBase from "@/templates/template-base"
+import { SpacerOut } from "@/components/spacer/"
+import { default as Hero2021 } from "@/components/pages/2021/hero"
 import Hero from "@/components/pages/index/hero"
 import Summary from "@/components/summary"
 import OurPrograms from "@/components/pages/index/our-programs"
@@ -11,6 +13,9 @@ import cmsData from "@/cms/index.mock"
 export default function Index() {
   return (
     <TemplateBase cmsData={cmsData.meta}>
+      <SpacerOut marginTop={16} marginTopDesktop={26}>
+        <Hero2021 cmsData={cmsData.hero_2021} />
+      </SpacerOut>
       <Hero cmsData={cmsData.hero} />
       <OurPrograms cmsData={cmsData.ourPrograms} />
       <Summary />

@@ -3,7 +3,16 @@ const cmsData = {
     title: "aceleradora de startups e programas de inovação",
     description:
       "Aceleradora de startups com método eficaz e mão na massa focada em desenvolver empresas e conectar programas de inovação aberta com corporações.",
-    permalink: "",
+    permalink: "/",
+  },
+  hero_2021: {
+    title: "Programa abeLLha de aceleração 2021",
+    message: "Lançou o seu MVP e quer escalar a sua startup?",
+    button: {
+      external: false,
+      url: "/2021",
+      text: "Saiba mais",
+    },
   },
   hero: {
     title: "Aceleramos o crescimento de startups de alto impacto",
