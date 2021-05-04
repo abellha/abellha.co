@@ -13,7 +13,7 @@ Read on http://localhost:3000
 
 ```bash
 yarn
-yarn build
+yarn export
 ```
 
 By default, build will generate an out directory, which can be served by any static hosting service or CDN.
