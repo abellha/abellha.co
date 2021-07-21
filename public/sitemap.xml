@@ -6,10 +6,6 @@
             </url>
         
             <url>
-                <loc>http://localhost:3000/404</loc>
-            </url>
-        
-            <url>
                 <loc>http://localhost:3000/</loc>
             </url>
         

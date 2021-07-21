@@ -7,6 +7,7 @@ async function generateSiteMap() {
     "!src/pages/_*.js",
     "!src/pages/**/[id].js",
     "!src/pages/api",
+    "!src/pages/404.js",
     "src/posts/*.md",
   ])
 
