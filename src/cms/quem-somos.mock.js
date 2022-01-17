@@ -27,7 +27,7 @@ const cmsData = {
         lastName: "Ghirello",
         role: "Fundadora",
         description:
-          "Fundadora da abeLLha e General Manager do Streaming do Telecine. Fez parte do time que fundou o Bom Negócio e que se fundiu à OLX.",
+          "Fundadora da abeLLha e Vice Presidente Latam da HBO Max. Fez parte do time que fundou o Bom Negócio e que se fundiu à OLX.",
       },
       {
         photo: "team_member_photo_maxim-kejzelman.jpg",
@@ -68,14 +68,6 @@ const cmsData = {
         role: "Desenvolvedor",
         description:
           "Desenvolvedor focado em soluções escaláveis atuando na arquitetura e desenvolvimento da abeLLha digital.",
-      },
-      {
-        photo: "team_member_photo_anna-carolina.jpg",
-        firstName: "Anna",
-        lastName: "Carolina",
-        role: "Estagiária de comunicação",
-        description:
-          "Atua na comunicação da abeLLha, com mídias sociais, imprensa e conteúdo.",
       },
     ],
   },
