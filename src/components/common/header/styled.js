@@ -1,9 +1,9 @@
-import styled from "styled-components"
 import breakpoints from "@/utils/breakpoints"
+import styled from "styled-components"
 
 const Logo = styled.h1`
   color: ${({ theme }) => theme.colors.secundary};
-  display: inline-block;
+  display: block;
   background: transparent url(${require(`images/abellha.png?inline`)}) 0 0
     no-repeat;
   background-size: contain;
@@ -11,6 +11,7 @@ const Logo = styled.h1`
   height: 37px;
   overflow: hidden;
   text-indent: -9999px;
+  margin: 0 auto;
 
   @media (min-width: ${breakpoints.desktop}) {
     width: 212px;
